@@ -216,15 +216,17 @@ function sortCarInventory(inventory) {
     } 
     return 0;
   });
-  // Works but not the way the test wants
-  // let carModel = []
-  // for (let i = 0; i < inventory.length; i++) {
-  //   carModel.push(inventory[i].car_model);
-  // }
-  // carModel.sort();
-  // console.log(carModel)
-  // return carModel;
-  // return carModel.sort(function(a, b) {return a - b});
+  /*
+  Works but not the way the test wants
+  let carModel = []
+  for (let i = 0; i < inventory.length; i++) {
+    carModel.push(inventory[i].car_model);
+  }
+  carModel.sort();
+  console.log(carModel)
+  return carModel;
+  return carModel.sort(function(a, b) {return a - b});
+  */
 }
 
 /**
